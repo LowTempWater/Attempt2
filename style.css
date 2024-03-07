@@ -1,0 +1,67 @@
+title {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: rgb(213, 103, 240);
+    text-align: center;
+    background-image: url("WebBG6.jpg");
+    background-size:100%;
+}
+
+h2 {
+    color: rgb(46, 4, 86);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    background-color: rgb(108, 78, 130);
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    display:inline-flex;
+}
+
+hr {
+    width: 100%;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 3px solid #0c1520;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+a:link {
+    background-color: #1560bd;
+    color: rgb(103, 169, 89);
+    padding: 10px 10px;
+    text-decoration:none;
+    display: inline-block;
+}
+
+a:visited {
+    background-color: rgb(176, 191, 104);
+    color: blue;
+    
+}
+
+a:hover, a:active {
+    background-color: azure;
+}
+
+
+table {
+    width: 95%;
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
